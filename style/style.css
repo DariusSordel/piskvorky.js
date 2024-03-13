@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+/*-----------------------------------*/
+
+/*----------------------------*/
+#startGame{
+
+
+    background-color: cadetblue;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+    height: 40px;
+    border: #bada55;
+}
+#tableDiv {
+
+    text-align: center;
+}
+#game  {
+    display: inline-block;
+    text-align: center;
+    font-size: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+td .fa {
+  visibility: visible;
+  font-size: 20px;
+}
+
+#playerTurn {
+    background-color: cadetblue;
+    width: 70px;
+    height: 30px;
+    margin: 30px;
+}
+#playerTurn p {
+    color: white;
+}
+#win {
+    text-align: center;
+    margin: 50px;
+    background-color: cadetblue;
+    height: 60px;
+    color: white;
+}
+#win p {
+    padding: 18px;
+    font-size: 18px;
+}
+.tableElement {
+    box-sizing: border-box;
+
+}
+.cube {
+    display: inline-block;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: #bada55;
+
+    background: white;
+    width: 50px;
+    height: 50px;
+}
+i.fa.fa-times {
+    margin-top: 10px;
+}
+i.fa.fa-circle-o {
+    margin-top: 10px;
+}
+#playerTurn i {
+    margin-top: 7px;
+    margin-left: 28px;
+}
